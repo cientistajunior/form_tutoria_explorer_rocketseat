@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Staatliches&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="hero">
+    <header>
+      <h1>Mentoria</h1>
+      <p>
+        Preencha o formulário abaixo para agendar a sua mentoria
+      </p>
+    </header>
+    <main>
+      <form class="form">
+        <div class="personalInformation">
+          <h1 class="title">Informações pessoais</h1>
+          <div class="line"></div>
+          <div class="lastNameAndName">
+            <label for="name">Nome</label>
+            <input type="text" id="name" name="name" required>
+            <label for="lastName">Sobrenome</label>
+            <input type="text" id="lastName" name="lastName">
+          </div>
+          <div class="email">
+            <label for="email">Email <span>(digite um email válido)</span></label>
+            <input type="email" name="email" id="email">
+          </div>
+          <div class="password">
+            <label for="password">Senha <span>(mínimo de 6 caracteres)</span></label>
+            <input type="password" name="password" id="password">
+          </div>
+        </div>
+        <div class="mentorInformation">
+          <h1 class="title">Informações do seu mentor</h1>
+          <div class="line"></div>
+          <div class="nameMentor">
+            <label for="nameMentor">Nome do seu mentor <span>(só o primeiro nome)</span></label>
+            <input type="text" id="nameMentor" name="nameMentor">
+          </div>
+        </div>
+        <div class="availableTime">
+          <h1 class="title">Seu horários disponíveis</h1>
+          <div class="line"></div>
+          <div class="firstMentoring">
+            <h2 class="sub-title">primeira mentoria</h2>
+            <label for="date">Data <span>(DD/MM/AAAA)</span></label>
+            <input type="text" name="date" id="date">
+            <label for="that">Das</label>
+            <input type="text" id="that" name="that">
+            <label for="ate">Até</label>
+            <input type="text" id="ate" name="ate">
+          </div>
+          <div class="secondtMentoring">
+            <h2 class="sub-title">Segunda mentoria</h2>
+            <label for="date">Data <span>(DD/MM/AAAA)</span></label>
+            <input type="text" name="date" id="date">
+            <label for="that">Das</label>
+            <input type="text" id="that" name="that">
+            <label for="ate">Até</label>
+            <input type="text" id="ate" name="ate">
+          </div>
+        </div>
+      </form>
+    </main>
+    <footer class="buttom">
+      <button class="click">salvar</button>
+    </footer>
+  </div>
+</body>
+
+</html>

@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  max-width: 144rem;
+  width: 100%;;
+  
+}
+
+header {
+  background-color: #535971;
+  padding-left: 33rem;
+  width: 100%;
+}
+
+header h1 {
+  font-family: Staatliches, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 4.8rem;
+  line-height: 6rem;
+
+  color: #fff;
+}
+
+header p {
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 3rem;
+  color: #fff;
+  margin-top: 1.8rem;
+}
+
+.form {
+  border: .1rem solid red;
+  display: grid;
+  align-items: center;
+ 
+  justify-content: center;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.line {
+  max-width: 62.2rem;
+  border: 1px solid #e6e6f0;
+  margin: 0 auto;
+}
+
+.title {
+  font-family: Staatliches, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2.4rem;
+  line-height: 3.4rem;
+  color: #535971;
+}
+
+.sub-title {
+  font-family: Staatliches, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 3.4rem;
+  color: #535971;
+}
+
+label {
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 2.4rem;
+  color: #4e4958;
+}
+
+span {
+  font-family: Poppins, sans-serif;
+  font-style: normal;  
+  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 2rem;
+  color: #c1bccc;
+}
+
+.buttom {
+  width: 100%;
+  max-width: 75rem;
+  height: 16rem;
+  background-color: #535971;
+  border-radius: 0 0 2rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.click {
+  width: 100%;
+  max-width: 61rem;
+  background-color: #ff5374;
+  border-radius: 2rem;
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 2.6rem;
+  font-family: Staatliches, sans-serif;
+  border: none;
+}
+
+
