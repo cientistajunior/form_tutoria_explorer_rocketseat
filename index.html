@@ -15,66 +15,90 @@
 <body>
   <div class="hero">
     <header>
-      <h1>Mentoria</h1>
-      <p>
-        Preencha o formulário abaixo para agendar a sua mentoria
-      </p>
+     <div class="header-container">
+        <h1>Mentoria</h1>
+        <p>
+          Preencha o formulário abaixo para agendar a sua mentoria
+        </p>
+     </div>
     </header>
     <main>
       <form class="form">
-        <div class="personalInformation">
-          <h1 class="title">Informações pessoais</h1>
-          <div class="line"></div>
-          <div class="lastNameAndName">
-            <label for="name">Nome</label>
-            <input type="text" id="name" name="name" required>
-            <label for="lastName">Sobrenome</label>
-            <input type="text" id="lastName" name="lastName">
+        <div class="form-container">
+          <div class="personalInformation">
+            <h1 class="title">Informações pessoais</h1>
+            <div class="line"></div>
+            <div class="row-2">
+              <div class="form-control">
+                <label for="name">Nome</label>
+                <input type="text" id="name" name="name" required>
+              </div>
+              <div class="form-control">
+                <label for="lastName">Sobrenome</label>
+                <input type="text" id="lastName" name="lastName">
+              </div>
+            </div>
+            <div class="form-control">
+              <label for="email">Email <span>(digite um email válido)</span></label>
+              <input type="email" name="email" id="email">
+            </div>
+            <div class="form-control">
+              <label for="password">Senha <span>(mínimo de 6 caracteres)</span></label>
+              <input type="password" name="password" id="password">
+            </div>
           </div>
-          <div class="email">
-            <label for="email">Email <span>(digite um email válido)</span></label>
-            <input type="email" name="email" id="email">
+          <div class="mentorInformation">
+            <h1 class="title">Informações do seu mentor</h1>
+            <div class="line"></div>
+            <div class="form-control">
+              <label for="nameMentor">Nome do seu mentor <span>(só o primeiro nome)</span></label>
+              <input type="text" id="nameMentor" name="nameMentor">
+            </div>
           </div>
-          <div class="password">
-            <label for="password">Senha <span>(mínimo de 6 caracteres)</span></label>
-            <input type="password" name="password" id="password">
+          <div class="availableTime">
+            <h1 class="title">Seu horários disponíveis</h1>
+            <div class="line"></div>
+            <div class="firstMentoring">
+              <h2 class="sub-title">primeira mentoria</h2>
+              <div class="row-3">
+                <div class="form-control">
+                  <label for="date">Data <span>(DD/MM/AAAA)</span></label>
+                  <input type="text" name="date" id="date">
+                </div>
+                <div class="form-control">
+                  <label for="that">Das</label>
+                  <input type="text" id="that" name="that">
+                </div>
+                <div class="form-control">
+                  <label for="ate">Até</label>
+                  <input type="text" id="ate" name="ate">
+                </div>
+              </div>
+            </div>
+            <div class="secondtMentoring">
+              <h2 class="sub-title">Segunda mentoria</h2>
+              <div class="row-3">
+                <div class="form-control">
+                  <label for="date">Data <span>(DD/MM/AAAA)</span></label>
+                  <input type="text" name="date" id="date">
+                </div>
+                <div class="form-control">
+                  <label for="that">Das</label>
+                  <input type="text" id="that" name="that">
+                </div>
+                <div class="form-control">
+                  <label for="ate">Até</label>
+                  <input type="text" id="ate" name="ate">
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-        <div class="mentorInformation">
-          <h1 class="title">Informações do seu mentor</h1>
-          <div class="line"></div>
-          <div class="nameMentor">
-            <label for="nameMentor">Nome do seu mentor <span>(só o primeiro nome)</span></label>
-            <input type="text" id="nameMentor" name="nameMentor">
-          </div>
-        </div>
-        <div class="availableTime">
-          <h1 class="title">Seu horários disponíveis</h1>
-          <div class="line"></div>
-          <div class="firstMentoring">
-            <h2 class="sub-title">primeira mentoria</h2>
-            <label for="date">Data <span>(DD/MM/AAAA)</span></label>
-            <input type="text" name="date" id="date">
-            <label for="that">Das</label>
-            <input type="text" id="that" name="that">
-            <label for="ate">Até</label>
-            <input type="text" id="ate" name="ate">
-          </div>
-          <div class="secondtMentoring">
-            <h2 class="sub-title">Segunda mentoria</h2>
-            <label for="date">Data <span>(DD/MM/AAAA)</span></label>
-            <input type="text" name="date" id="date">
-            <label for="that">Das</label>
-            <input type="text" id="that" name="that">
-            <label for="ate">Até</label>
-            <input type="text" id="ate" name="ate">
-          </div>
+        <div class="button-container">
+          <button class="click">salvar</button>
         </div>
       </form>
     </main>
-    <footer class="buttom">
-      <button class="click">salvar</button>
-    </footer>
   </div>
 </body>
 
